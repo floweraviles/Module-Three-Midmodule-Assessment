@@ -1,0 +1,23 @@
+.Products {
+    display: grid;
+}
+
+.Products ul {
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+
+.Products img {
+    height: 150px;
+    width: 150px;
+
+}
+
+.Products li {
+    list-style: none;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
